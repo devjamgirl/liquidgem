@@ -24,24 +24,29 @@ body {
   font-weight: bold;
   margin-right: 45px;
 }
-.top-left ul {
+.top-left {
   list-style-type: none;
 }
 .top-left {
   display: inline-block;
   margin-left: 700px;
 }
-.top-left li {
+.top-left a {
   font-size: 75%;
 }
+
 .head h1 {
   font-family: 'Khula',sans-serif;
   text-align: center;
   margin-top: 50px;
   line-height:2;
+  margin-bottom: 0;
 }
-.head #head2 {
+.head h5 {
   font-size:80%;
+margin-bottom: 50px;
+text-align: center;
+margin-top: 0;
 }
 .head span {
   color:#FF66B2;
@@ -49,7 +54,6 @@ body {
 #spain1 {
   width:1225px;
   height: 250px;
-
   text-align: center;
   margin:10px 1%;
   padding-left:5px;
@@ -104,23 +108,11 @@ div .my-work {
   position:relative;
   z-index: -1
 }
-.box1 {
+.box1, .box2, .box3, .box4, .box5 {
   display:inline-block;
   float:left;
 }
-.box2 {
-  display:inline-block;
-  float:left;
-}
-.box3 {
-  display:inline-block;
-  float:left;
-}
-.box4 {
-  display:inline-block;
-  float:left;
-}
-.box5 {
+.box6, .box7, .box8, .box9, .box10 {
   display:inline-block;
   float:left;
 }
@@ -136,7 +128,7 @@ width:185px;
   font-size: 10px;
   border-radius: 0px 0px 10px 10px;
 }
-#Bottom h2{
+.thanks h2{
   margin-top: 50px;
   color:#FF66B2;
   font-family: "Cookie", cursive;
@@ -155,16 +147,14 @@ width:185px;
   font-family: "Khulia",sans-serif;"
   display:inline-block;
 }
-.bottom {
-  float:left;
-  margin-left: 150px;
-}
 .social-icons {
-  display:inline;
+  display:inline-block;
  float:right;
-  margin-right: 100px;
+  margin-right: 50px;
   z-index: -1;
-  
+  margin-top: 80px;
+  width: 40%;
+
 }
 .fa-twitter, .fa-facebook-official, .fa-youtube, .fa-google-plus {
 margin-right: 20px;
@@ -173,28 +163,29 @@ border-radius: 50%;
 padding:5px;
 margin-bottom: 50px;
 border-color:  #FF66B2;
-vertical-align: middle;
+float:right;
 
 }
-footer {
+.bottom {
   background: #2d2d2d;
   height:300px;
-  width: 100%;
+  width: 40%;
   position:relative;
   margin:0;
-
+  display:inline;
+  float: left;
+  margin-left:20px;
 }
 span .fa-twitter,.fa-facebook-official, .fa-youtube, .fa-google-plus{
   background-color:#FF66B2;
 }
-
-/*
-icon-background {
-  color:#FF66B2;
-}*
-
-/*to style sky pic
-width: 185px;
-    height: 180px;
-    border-radius: 15px 15px 0px 0px;
-    margin: 10px;*/
+.footer {
+  background-color: #2d2d2d;
+  width:100%;
+  height: 100%;
+}
+.container {
+  height: 300px;
+  width:100%;
+  margin:0;
+}
